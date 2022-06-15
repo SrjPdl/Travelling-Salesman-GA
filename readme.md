@@ -1,9 +1,9 @@
 ## 🗺 Travelling Salesman Problem (TSP)
 The Travelling Salesman Problem (TSP) is a combinatorial optimization problem. 
-##### Statement:
+#### Statement:
 *"Given a list of cities and the distances between each pair of the cities, find the shortest possible path that goes through all the cities, and returns to the starting city."*
 
-##### Mathematical Formulation:
+#### Mathematical Formulation:
 If there are $n$ cities ranging from $$\\{ 1,2,3 \dots , n\\}$$ The distance from city $i$ to city $j$ is given by $$c_{i,j} \gt 0 $$ And $x_{i,j}$ is defined as:$$x_{i,j} = {1\ if\ path\ goes\ from\ city\ i\ to\ j\ ,\ 0\ otherwise }$$
 Then the Travelling Salesman Problem is defined to minimize the total distance of the path.
 $$\sum_{i=1}^{n} \sum_{j\ne i, j=1}^{n} c_{i,j} x_{i,j}$$
