@@ -60,8 +60,6 @@ class TSP:
 
             for i in range(self.size):
                 for j in range(self.size):
-                    dist = np.sqrt((self.coordinates[i][0] - self.coordinates[j][0]) ** 2 + (self.coordinates[i][1] - self.coordinates[j][1]) ** 2)
-
                     dist = np.linalg.norm(self.coordinates[i]- self.coordinates[j])
                     self.distance_matrix[i][j] = dist
                     self.distance_matrix[j][i] = dist
