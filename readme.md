@@ -36,7 +36,7 @@ The problem is taken from [TSBLIB](http://elib.zib.de/pub/mp-testdata/tsp/tsplib
     Mimum distance: 9203.3696
 ```
 ### 🚀 Author
-**Suraj Paudel**
+**Suraj Poudel**
 
 ### 📃License
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
