@@ -8,7 +8,7 @@ def eaElitismCallback(population, toolbox, cxpb, mutpb, ngen, callback=None, sta
        halloffame are directly injected into the next generation and are not subject to the
        genetic operators of selection, crossover and mutation.
     2. a callback argument was added. It represents an external function that will be called after
-       each iteration, passing the current generation number and the current best individual as arguments
+       each iteration, passing the current generation number, max gen and the current best individual as arguments
     """
     logbook = tools.Logbook()
     logbook.header = ['gen', 'nevals'] + (stats.fields if stats else [])
